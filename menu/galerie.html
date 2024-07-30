@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecole Superieure</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="../images/logo_esi.ico">
+</head>
+<body>
+    <div class="conteneur">
+        <div class="gauche">
+
+            <img src="../images/logo_esi.png" alt="Logo ESI">
+            <div class="nom">Ecole Superieure</div>
+            <div class="devise">La Quete Permanente de l'Excellence.</div>
+
+
+            <div class="contact">
+                <div class="icone">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:esi@esi.com">info@esi-upb.bf</a>
+                </div>
+                <div class="icone">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+22664103847">+226 20 97 27 64</a>
+                </div>
+                <div class="icone">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <a href="map:unb">Bobo-Dioulasso</a>
+                </div>
+                <div class="icone">
+                    <i class="fas fa-link"></i>
+                    <a href="https://www.esi-upb.bf" target="_blank">esi-upb.bf</a>
+                </div>
+            </div>
+
+        
+            <div class="reseaux-sociaux">
+                <a href="https://github.com/Trinium77" target="_blank" style="color: black;"><i class="fab fa-github"></i></a>
+                <a href="https://wa.me/22664103847" target="_blank" style="color: rgb(10, 189, 40);"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://facebook.com/" target="_blank" style="color: rgba(47, 41, 214, 0.91);"><i class="fab fa-facebook"></i></a>
+                <a href="https://linkedin.com" target="_blank" style="color: rgba(24, 158, 231, 0.789);"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+
+        <div class="bloc droite">
+
+            <div class="onglet">
+
+                <div class="onglet-actif">
+                    <b><span>Galerie</span></b>
+                </div>
+                
+                <div></div>
+                <div class="menuf menu1">
+                    <i class="fas fa-bars"></i>
+                    <ul>
+                        <li><a href="../index.html">Accueil</a></li>
+                        <li><a href="../menu/academie.html">Académique</a></li>
+                        <li><a href="../menu/admission.html">Admission</a></li>
+                        <li><a  class="actif" href="../menu/galerie.html">Galerie</a></li>
+                    </ul>
+                </div>
+
+                <div class="menu">
+                    <ul>
+                        <li><a href="../index.html">Accueil</a></li>
+                        <li><a href="../menu/academie.html">Académique</a></li>
+                        <li><a href="../menu/admission.html">Admission</a></li>
+                        <li><a class="actif" href="../menu/galerie.html">Galerie</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="galcontenu">
+                <div class="element face">
+                  <div class="niv">1 / 8</div>
+                    <img class="image" src="../images/galerie/admin.png">
+                  <div class="texte">Corps Administratif et Amis de L'ESI</div>
+                </div>
+
+                <div class="element face">
+                  <div class="niv">2 / 8</div>
+                  <img class="image" src="../images/galerie/numeric.png">
+                  <div class="texte">Journée d'innovation</div>
+                </div>
+
+                <div class="element face">
+                  <div class="niv">3 / 8</div>
+                  <img class="image" src="../images/galerie/prime.jpg">
+                  <div class="texte">Panel & Exposition</div>
+                </div>
+
+                <div class="element face">
+                    <div class="niv">4 / 8</div>
+                    <img class="image" src="../images/galerie/usite22.png">
+                    <div class="texte">Journée d'innoguration</div>
+                  </div>
+
+                  <div class="element face">
+                    <div class="niv">5 / 8</div>
+                    <img class="image" src="../images/galerie/nazi.png">
+                    <div class="texte">Site du 22</div>
+                  </div>
+
+                  <div class="element face">
+                    <div class="niv">6 / 8</div>
+                    <img class="image" src="../images/galerie/bloc.jpg">
+                    <div class="texte">Bloc Pédagogique</div>
+                  </div>
+
+                  <div class="element face">
+                    <div class="niv">7 / 8</div>
+                    <img class="image" src="../images/galerie/labo1.png">
+                    <div class="texte">Laboratoire Electronique</div>
+                  </div>
+
+                  <div class="element face">
+                    <div class="niv">8 / 8</div>
+                    <img class="image" src="../images/galerie/labo3.png">
+                    <div class="texte">Matériels Electronique</div>
+                  </div>
+
+                <a class="avant" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="apres" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            
+            <br>
+            <div class="bar-pas">
+                <span class="pas" onclick="currentSlide(1)"></span> 
+                <span class="pas" onclick="currentSlide(2)"></span> 
+                <span class="pas" onclick="currentSlide(3)"></span> 
+                <span class="pas" onclick="currentSlide(4)"></span>
+                <span class="pas" onclick="currentSlide(5)"></span>
+                <span class="pas" onclick="currentSlide(6)"></span>
+                <span class="pas" onclick="currentSlide(7)"></span>
+                <span class="pas" onclick="currentSlide(8)"></span>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+<script>
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("element");
+  var dots = document.getElementsByClassName("pas");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</html>

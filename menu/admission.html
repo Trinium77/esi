@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecole Superieure</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="../images/logo_esi.ico">
+</head>
+<body>
+    <div class="conteneur">
+        <div class="gauche">
+
+            <img src="../images/logo_esi.png" alt="Logo ESI">
+            <div class="nom">Ecole Superieure</div>
+            <div class="devise">La Quete Permanente de l'Excellence.</div>
+
+
+            <div class="contact">
+                <div class="icone">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:esi@esi.com">info@esi-upb.bf</a>
+                </div>
+                <div class="icone">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+22664103847">+226 20 97 27 64</a>
+                </div>
+                <div class="icone">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <a href="map:unb">Bobo-Dioulasso</a>
+                </div>
+                <div class="icone">
+                    <i class="fas fa-link"></i>
+                    <a href="https://www.esi-upb.bf" target="_blank">esi-upb.bf</a>
+                </div>
+            </div>
+
+        
+            <div class="reseaux-sociaux">
+                <a href="https://github.com/Trinium77" target="_blank" style="color: black;"><i class="fab fa-github"></i></a>
+                <a href="https://wa.me/22664103847" target="_blank" style="color: rgb(10, 189, 40);"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://facebook.com/" target="_blank" style="color: rgba(47, 41, 214, 0.91);"><i class="fab fa-facebook"></i></a>
+                <a href="https://linkedin.com" target="_blank" style="color: rgba(24, 158, 231, 0.789);"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+
+        <div class="bloc droite">
+
+            <div class="onglet">
+
+                <div class="onglet-actif">
+                    <b><span>Admission</span></b>
+                </div>
+
+                <div></div>
+                <div class="menuf menu1">
+                    <i class="fas fa-bars"></i>
+                    <ul>
+                        <li><a href="../index.html">Accueil</a></li>
+                        <li><a href="../menu/academie.html">Académique</a></li>
+                        <li><a  class="actif" href="../menu/admission.html">Admission</a></li>
+                        <li><a href="../menu/galerie.html">Galerie</a></li>
+                    </ul>
+                </div>
+
+                <div class="menu">
+                    <ul>
+                        <li><a href="../index.html">Accueil</a></li>
+                        <li><a href="../menu/academie.html">Académique</a></li>
+                        <li><a class="actif" href="../menu/admission.html">Admission</a></li>
+                        <li><a href="../menu/galerie.html">Galerie</a></li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="Adcontenu">
+                <div class="form1">
+                    <form id="form1">
+                        <h2>Informations Personnelles</h2>
+                        <label for="nom">Nom</label>
+                        <input type="text" id="nom" name="nom" placeholder="Nom" required>
+            
+                        <label for="prenom">Prénom</label>
+                        <input type="text" id="prenom" name="prenom" placeholder="Prénom" required>
+            
+                        <label for="date_naissance">Date de Naissance</label>
+                        <input type="date" id="date_naissance" name="date_naissance" required>
+            
+                        <label for="lieu_naissance">Lieu de Naissance</label>
+                        <input type="text" id="lieu_naissance" name="lieu_naissance" placeholder="Lieu de Naissance" required>
+            
+                        <label for="localite">Localité</label>
+                        <input type="text" id="localite" name="localite" placeholder="Localité" required>
+                        <div class="avertis">
+                            <input type="checkbox" name="confirmation" id="confirmation" class="chk" required>
+                            <p>Je certifie que toutes les informations saisies dans ce formulaire sont exactes et véridiques. 
+                                Je m'engage fermement à ne m'impliquer dans aucune activité suspecte ou douteuse 
+                                qui pourrait porter atteinte à l'intégrité ou à la légalité de ce processus.</p>
+                        </div>
+                    </form>
+                </div>
+            
+                <div class="form2">
+                    <form id="form2">
+                        <h2>Études</h2>
+                        <label for="ine">INE</label>
+                        <input type="text" id="ine" name="ine" placeholder="INE" required>
+            
+                        <label for="mail">Email</label>
+                        <input type="email" id="mail" name="mail" placeholder="Email" required>
+            
+                        <label for="numero">Numéro de Téléphone</label>
+                        <input type="tel" id="numero" name="numero" placeholder="Numéro de Téléphone" required>
+            
+                        <label for="bac">Baccalauréat</label>
+                        <select id="bac" name="bac">
+                            <option value="C">C</option>
+                            <option value="D">D</option>
+                            <option value="E">E</option>
+                        </select>
+            
+                        <label for="parcours">Type de Parcours</label>
+                        <input list="parcours" name="parcours" class="parcours" placeholder="Parcours">
+                        <datalist id="parcours">
+                            <option value="Ingénieur Réseaux Systèmes">Ingénieur Réseaux Systèmes</option>
+                            <option value="Ingénierie Systèmes d'information">Ingénierie Systèmes d'information</option>
+                            <option value="Génie logiciel">Génie logiciel</option>
+                            <option value="Cybersécurité">Cybersécurité</option>                            
+                        </datalist>
+                        <input class="bouton" type="reset" value="Effacer">
+                        <input class="bouton" type="submit" value="Soumettre" onclick="aff()">
+                    </form>
+                </div>
+            </div>
+            
+            <script>
+                function aff(event){
+                    event.preventDefault();
+            
+                    const form1 = document.getElementById('form1');
+                    const form2 = document.getElementById('form2');
+            
+                    const nom = form1.querySelector('#nom').value;
+                    const prenom = form1.querySelector('#prenom').value;
+                    const date_naissance = form1.querySelector('#date_naissance').value;
+                    const lieu_naissance = form1.querySelector('#lieu_naissance').value;
+                    const localite = form1.querySelector('#localite').value;
+            
+                    const ine = form2.querySelector('#ine').value;
+                    const mail = form2.querySelector('#mail').value;
+                    const numero = form2.querySelector('#numero').value;
+                    const bac = form2.querySelector('#bac').value;
+                    const parcours = form2.querySelector('input[list="parcours"]').value;
+            
+                    const result = document.querySelector('.Adcontenu');
+                    result.innerHTML = `
+                        <div class="form1">
+                            <h2>Informations Personnelles</h2>
+                            <p>Nom: ${nom}</p>
+                            <p>Prénom: ${prenom}</p>
+                            <p>Date de Naissance: ${date_naissance}</p>
+                            <p>Lieu de Naissance: ${lieu_naissance}</p>
+                            <p>Localité: ${localite}</p>
+                        
+                            <h2>Études</h2>
+                            <p>INE: ${ine}</p>
+                            <p>Email: ${mail}</p>
+                            <p>Numéro de Téléphone: ${numero}</p>
+                            <p>Baccalauréat: ${bac}</p>
+                            <p>Type de Parcours: ${parcours}</p>
+                        </div>
+
+                        <div class="form2">
+                            <div class="aff">
+                                <img src="../images/logo_esi.png" alt="Logo ESI">
+                                <div class="nom">Ecole Superieure</div>
+                                <div class="devise">La Quete Permanente de l'Excellence.</div>
+                            </div>
+                                <p>Votre demande a été soumise avec succès. Vous trouverez ci-joint les informations associées. Merci de rester à l'écoute de votre courrier électronique. Nous vous informerons en cas d'examen ou de sélection de votre dossier.</p>
+                        </div>
+                    `;
+                }
+            
+                document.querySelector('.form2 form').addEventListener('submit', aff);
+            </script>
+            
+</body>
+</html>
